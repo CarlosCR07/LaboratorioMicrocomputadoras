@@ -1,0 +1,136 @@
+MPASM  5.51                            2A.ASM   3-20-2023  22:10:12         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Warning[205]: Found directive in column 1. (PROCESSOR)
+                      00001 PROCESSOR PIC16F877A
+Warning[205]: Found directive in column 1. (ORG)
+0000                  00002 ORG 0X00
+Warning[203]: Found opcode in column 1. (GOTO)
+0000   2805           00003 GOTO INICIO
+Warning[205]: Found directive in column 1. (ORG)
+0005                  00004 ORG 0X05
+0005                  00005 INICIO
+0005   1683           00006         BSF 0X03, 0X05 ;RP0->1
+0006   1303           00007         BCF 0X03, 0X06 ;RP1->0
+                      00008         
+0007   30FF           00009         MOVLW 0XFF ; MANDO PUROS 11111111
+0008   0085           00010         MOVWF 0X05 ; LO GUARDO EN TRISX A PARA HACERLOS ENTRADA 
+                      00011         
+0009   3000           00012         MOVLW 0X00 ; MANDO PUROS 000000
+000A   0086           00013         MOVWF 0X06 ; LO GUARDO EN TRISX A PARA HACERLOS SALIDAS 
+                      00014 
+000B   1283           00015         BCF 0X03, 0X05 ;P0->0 REGRESO A BANCO 00
+                      00016 
+                      00017         
+000C   1805           00018         BTFSC 0X05, 0X00 ;RA0
+000D   2812           00019                 GOTO RA0_1
+000E   280F           00020                 GOTO RA0_0
+                      00021 
+Warning[207]: Found label after column 1. (RA0_0)
+000F   1885           00022         RA0_0 BTFSC 0X05,0X01 ;RA1
+0010   282B           00023                 GOTO PORTA_10 ;RA1_1
+0011   2815           00024                 GOTO PORTA_00 ;RA1_0
+                      00025         
+Warning[207]: Found label after column 1. (RA0_1)
+0012   1885           00026         RA0_1 BTFSC 0X05,0X01 ;RA1
+0013   282F           00027                 GOTO PORTA_11 ;RA1_1
+0014   2820           00028                 GOTO PORTA_01 ;RA1_0
+                      00029 
+Warning[207]: Found label after column 1. (PORTA_00)
+0015   2817           00030         PORTA_00 GOTO SECUENCIA80 ;ESTABLECE INICIO DE SECUENCIA
+0016   281A           00031                 GOTO CORRIMIENTO80 ;INICIA CICLO
+                      00032 
+Warning[207]: Found label after column 1. (SECUENCIA80)
+0017   3001           00033                 SECUENCIA80 MOVLW 0X01; COLOCAMOS EL PRIMER UNO
+0018   0086           00034                         MOVWF 0X06; LO MANDAMOS AL REGUSTRISTRO
+0019   1003           00035                         BCF 0X03,0X00; PONEMOS LA BANDERA CARRY EN CERO
+                      00036                  
+Warning[207]: Found label after column 1. (CORRIMIENTO80)
+001A   0D86           00037                 CORRIMIENTO80 RLF 0X06,0X01 ; EMPEZAMOS CORRIMIENTO
+001B   3080           00038                         MOVLW 0X80 ;ASIGNO EL VALOR A W
+001C   0206           00039                         SUBWF 0X06, 0X00 ;HACEMOS UNA RESTA PARA SABER SI Z=0
+001D   1D06           00040                         BTFSS 0X06,0X02 ; PREGUNTAMOS SI YA LLEGAMOS A 80, Z=0
+001E   281A           00041                                 GOTO CORRIMIENTO80 ;REPITE EL CICLO
+001F   2817           00042                                 GOTO SECUENCIA80; REINICIA EL CICLO
+                      00043 
+Warning[207]: Found label after column 1. (PORTA_01)
+MPASM  5.51                            2A.ASM   3-20-2023  22:10:12         PAGE  2
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+0020   2822           00044         PORTA_01 GOTO SECUENCIA01 ;ESTABLECE INICIO DE SECUENCIA
+0021   2825           00045                 GOTO CORRIMIENTO01 ;INICIA CICLO
+                      00046 
+Warning[207]: Found label after column 1. (SECUENCIA01)
+0022   3080           00047                 SECUENCIA01 MOVLW 0X80; COLOCAMOS QUE PARTA DE 80
+0023   0086           00048                         MOVWF 0X06; LO MANDAMOS AL REGUSTRISTRO
+0024   1003           00049                         BCF 0X03,0X00; PONEMOS LA BANDERA CARRY EN CERO
+                      00050                  
+Warning[207]: Found label after column 1. (CORRIMIENTO01)
+0025   0C86           00051                 CORRIMIENTO01 RRF 0X06,0X01 ; EMPEZAMOS CORRIMIENTO
+0026   3001           00052                         MOVLW 0X01;ASIGNO EL VALOR A W
+0027   0206           00053                         SUBWF 0X06, 0X00 ;HACEMOS UNA RESTA PARA SABER SI Z=0
+0028   1D06           00054                         BTFSS 0X06,0X02 ; PREGUNTAMOS SI YA LLEGAMOS A 01
+0029   2825           00055                                 GOTO CORRIMIENTO01 ;REPITE EL CICLO
+002A   2822           00056                                 GOTO SECUENCIA01 ;REINICIA EL CILO
+                      00057 
+Warning[207]: Found label after column 1. (PORTA_10)
+002B                  00058         PORTA_10 
+Warning[207]: Found label after column 1. (CHANGE)
+002B   300F           00059                 CHANGE MOVLW 0X0F ;ASIGNO EL VALOR 0X0F
+002C   0086           00060                         MOVWF 0X06 ;LO PASO AL REGISTRO
+002D   0E86           00061                         SWAPF 0X06, 0X01 ; INTERCAMBIO A 0XF0
+002E   282B           00062                         GOTO CHANGE ;REPITO EL CICLO
+                      00063 
+Warning[207]: Found label after column 1. (PORTA_11)
+002F                  00064         PORTA_11
+Warning[207]: Found label after column 1. (CAMBIAR)
+002F   3000           00065                 CAMBIAR MOVLW 0X00 ;ASIGNO EL VALOR 0X00
+0030   0086           00066                         MOVWF 0X06 ;LO PASO AL REGISTRO
+0031   0986           00067                         COMF 0X06, 0X01 ; INTERCAMBIO A 0XFF
+0032   282F           00068                         GOTO CAMBIAR ;REPITO EL CICLO
+                      00069 
+Warning[205]: Found directive in column 1. (END)
+                      00070 END
+MPASM  5.51                            2A.ASM   3-20-2023  22:10:12         PAGE  3
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+CAMBIAR                           0000002F
+CHANGE                            0000002B
+CORRIMIENTO01                     00000025
+CORRIMIENTO80                     0000001A
+INICIO                            00000005
+PORTA_00                          00000015
+PORTA_01                          00000020
+PORTA_10                          0000002B
+PORTA_11                          0000002F
+RA0_0                             0000000F
+RA0_1                             00000012
+SECUENCIA01                       00000022
+SECUENCIA80                       00000017
+__16F877A                         00000001
+
+
+MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
+
+0000 : X----XXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX XXX-------------
+
+All other memory blocks unused.
+
+Program Memory Words Used:    47
+Program Memory Words Free:  8145
+
+
+Errors   :     0
+Warnings :    17 reported,     0 suppressed
+Messages :     0 reported,     0 suppressed
+
+

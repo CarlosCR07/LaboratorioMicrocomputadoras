@@ -1,0 +1,67 @@
+MPASM  5.51                           EJ2.ASM   3-12-2023  19:03:06         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Warning[205]: Found directive in column 1. (processor)
+                      00001 processor PIC16f877A ;procesador a utilizar
+Warning[205]: Found directive in column 1. (org)
+0000                  00002 org 0x00                ;vector de reset
+0000                  00003 Goto0x05                ;envia pc a la direccion 05
+Warning[205]: Found directive in column 1. (org)
+0005                  00004 org 0x05                ;origen del programa
+                      00005 
+0005                  00006 INICIO
+0005   1283           00007         BCF 0X03,0X05
+0006   1283           00008         BCF 0X03,0X05   
+0007   1FA0           00009         BTFSS 0X20,0X07 ;VERIFICA EL BIT 7 DE LA LOCALIDAD 0X20 SI 1 PC-PC+1
+0008   2811           00010         GOTO UNO_CUATRO
+0009   1FA1           00011         BTFSS 0X21,0X07 ;VERIFICA EL BIT 7 DE LA LOCALIDAD 0X20 SI 1 PC-PC+1 SI SE CUMPLE LO DEL 9
+000A   280E           00012         GOTO DOS 
+000B   3003           00013         MOVLW 0X03      ;CARGA LA LITERAL DE 0X03
+000C   00A3           00014         MOVWF 0X23      
+000D   2805           00015         GOTO INICIO
+000E   3002           00016 DOS MOVLW 0X02
+000F   00A3           00017         MOVWF 0X23
+0010   2805           00018         GOTO INICIO
+0011   1FA1           00019 UNO_CUATRO BTFSS 0X21,0X07
+0012   2816           00020                 GOTO UNO
+0013   3004           00021                 MOVLW 0X04
+0014   00A3           00022                 MOVWF 0X23
+0015   2805           00023                 GOTO INICIO     
+Warning[207]: Found label after column 1. (UNO)
+0016   3001           00024         UNO MOVLW 0X01
+0017   00A3           00025                 MOVWF 0X23
+0018   2805           00026                 GOTO INICIO
+Warning[205]: Found directive in column 1. (END)
+                      00027 END
+MPASM  5.51                           EJ2.ASM   3-12-2023  19:03:06         PAGE  2
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+DOS                               0000000E
+Goto0x05                          00000000
+INICIO                            00000005
+UNO                               00000016
+UNO_CUATRO                        00000011
+__16F877A                         00000001
+
+
+MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
+
+0000 : -----XXXXXXXXXXX XXXXXXXXX------- ---------------- ----------------
+
+All other memory blocks unused.
+
+Program Memory Words Used:    20
+Program Memory Words Free:  8172
+
+
+Errors   :     0
+Warnings :     5 reported,     0 suppressed
+Messages :     0 reported,     0 suppressed
+
+

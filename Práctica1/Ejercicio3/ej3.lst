@@ -1,0 +1,77 @@
+MPASM  5.51                           EJ3.ASM   3-13-2023  21:41:16         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Warning[205]: Found directive in column 1. (processor)
+                      00001 processor PIC16f877A ;procesador a utilizar
+Warning[205]: Found directive in column 1. (org)
+0000                  00002 org 0x00                ;vector de reset
+0000                  00003 Goto0x05                ;envia pc a la direccion 05
+Warning[205]: Found directive in column 1. (org)
+0005                  00004 org 0x05                ;origen del programa
+                      00005 
+0005                  00006 INICIO
+0005   1283           00007         BCF 0X03,0X05
+0006   1283           00008         BCF 0X03,0X05
+0007   0103           00009         CLRW
+0008   1003           00010         BCF 0X03, 0 ;COLOCAMOS CARRY EN CERO
+                      00011 
+                      00012         ;ENTRO AL BANCO 1
+0009   1703           00013         BSF 0X03, 0X06
+000A   1283           00014         BCF 0X03, 0X05
+Message[305]: Using default destination of 1 (file).
+000B   0DA0           00015         RLF 0X20 ;MULTIPLICANDO POR DOS
+000C   0103           00016         CLRW
+000D   0820           00017         MOVF 0X20, 0 ;PASAMOS A W
+                      00018 
+                      00019         ;REGRESO AL BANCO 0
+000E   1303           00020         BCF 0X03, 0X06
+000F   1283           00021         BCF 0X03, 0X05
+                      00022 
+0010   07A1           00023         ADDWF 0X21, 1; SUMAMOS W CON EL REGISTRO Y LO GUARDO EN EL REGISTRO
+0011   3024           00024         MOVLW 0X24      ;CARGA LA LITERAL 0X24
+0012   0221           00025         SUBWF 0X21, 0 ;RESTO W CON 0X21 Y GUARDO EN W
+0013   390F           00026         ANDLW 0X0F ;A W OPERO LA LITERAL CON AND Y GUARDO EN W
+                      00027         ;VERIFICAMOS EL RESULTADO
+0014   1D03           00028         BTFSS 0X03,2 ;STATUS - BIT DE BANDERA Z
+0015   2817           00029         GOTO Z_UNO ; Significa que el resultado es cero
+0016   281A           00030         GOTO Z_CERO ; Significa que el resultado es dif de cero
+                      00031 
+0017   30FF           00032 Z_UNO   MOVLW 0XFF      ;CARGA LA LITERAL 0XFF
+0018   00A4           00033                 MOVWF 0X24
+0019   2805           00034                 GOTO INICIO
+001A   3000           00035 Z_CERO  MOVLW 0X00      ;CARGA LA LITERAL 0X00
+001B   00A4           00036                 MOVWF 0X24
+001C   2805           00037                 GOTO INICIO
+Warning[205]: Found directive in column 1. (END)
+                      00038 END
+MPASM  5.51                           EJ3.ASM   3-13-2023  21:41:16         PAGE  2
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+Goto0x05                          00000000
+INICIO                            00000005
+Z_CERO                            0000001A
+Z_UNO                             00000017
+__16F877A                         00000001
+
+
+MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
+
+0000 : -----XXXXXXXXXXX XXXXXXXXXXXXX--- ---------------- ----------------
+
+All other memory blocks unused.
+
+Program Memory Words Used:    24
+Program Memory Words Free:  8168
+
+
+Errors   :     0
+Warnings :     4 reported,     0 suppressed
+Messages :     1 reported,     0 suppressed
+
+

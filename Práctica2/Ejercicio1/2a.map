@@ -1,0 +1,57 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Mon Mar 20 22:10:13 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .org_1       code   0x000005    program   0x00005c
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000005    0x000032      
+            47 out of 8454 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  CAMBIAR   0x00002f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                   CHANGE   0x00002b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+            CORRIMIENTO01   0x000025    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+            CORRIMIENTO80   0x00001a    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                   INICIO   0x000005    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                 PORTA_00   0x000015    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                 PORTA_01   0x000020    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                 PORTA_10   0x00002b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                 PORTA_11   0x00002f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                    RA0_0   0x00000f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                    RA0_1   0x000012    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+              SECUENCIA01   0x000022    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+              SECUENCIA80   0x000017    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000005    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                    RA0_0   0x00000f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                    RA0_1   0x000012    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                 PORTA_00   0x000015    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+              SECUENCIA80   0x000017    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+            CORRIMIENTO80   0x00001a    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                 PORTA_01   0x000020    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+              SECUENCIA01   0x000022    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+            CORRIMIENTO01   0x000025    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                   CHANGE   0x00002b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                 PORTA_10   0x00002b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                  CAMBIAR   0x00002f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+                 PORTA_11   0x00002f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica2\Ejercicio1\2a.asm
+
+

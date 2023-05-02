@@ -1,0 +1,70 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Mon May 01 21:37:49 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000005    program   0x0000f4
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000005    0x00007e      
+            123 out of 8454 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 DEBOUNE1   0x000073    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                 DEBOUNE2   0x000079    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                 DELAY150   0x000065    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                  DELAY4S   0x00006c    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                 DESP_DER   0x00004b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                 DESP_IZQ   0x000044    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                   GRABAR   0x00001c    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+               G_DESP_DER   0x00002b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+               G_DESP_IZQ   0x000027    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                    G_ON4   0x000033    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                 G_ON_OFF   0x00002f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                   INICIO   0x000011    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                  LECTURA   0x00003d    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                 LEER_MEM   0x00003b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                     LOOP   0x000055    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                      ON4   0x00005f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                   ON_OFF   0x000052    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+               REPRODUCIR   0x000037    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                  SELEC_G   0x000020    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000011    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                   GRABAR   0x00001c    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                  SELEC_G   0x000020    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+               G_DESP_IZQ   0x000027    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+               G_DESP_DER   0x00002b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                 G_ON_OFF   0x00002f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                    G_ON4   0x000033    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+               REPRODUCIR   0x000037    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                 LEER_MEM   0x00003b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                  LECTURA   0x00003d    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                 DESP_IZQ   0x000044    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                 DESP_DER   0x00004b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                   ON_OFF   0x000052    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                     LOOP   0x000055    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                      ON4   0x00005f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                 DELAY150   0x000065    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                  DELAY4S   0x00006c    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                 DEBOUNE1   0x000073    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+                 DEBOUNE2   0x000079    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica4\Código\prac4.asm
+
+

@@ -1,0 +1,18 @@
+Warning[205] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 3 : Found directive in column 1. (processor)
+Warning[205] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 6 : Found directive in column 1. (cblock)
+Message[313] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 6 : CBLOCK constants will start with a value of 0.
+Warning[205] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 9 : Found directive in column 1. (ENDC)
+Warning[205] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 10 : Found directive in column 1. (org)
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 11 : Found opcode in column 1. (GOTO)
+Warning[205] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 12 : Found directive in column 1. (org)
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 15 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 16 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 21 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 24 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 28 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 30 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 35 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 40 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 50 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 53 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[205] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA2B\EJERCICIOPR2.ASM 176 : Found directive in column 1. (END)
