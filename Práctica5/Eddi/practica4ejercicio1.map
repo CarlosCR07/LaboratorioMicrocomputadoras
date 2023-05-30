@@ -1,0 +1,53 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Mon May 29 23:52:30 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .org_1       code   0x000005    program   0x000094
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000005    0x00004e      
+            75 out of 8454 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      DOS   0x00002a    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                     DOS?   0x000019    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                    ENVIA   0x000043    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                   INICIA   0x000011    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                   RECIBE   0x00004b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                  REGRESA   0x000020    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+              REGRESA_DOS   0x00002b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                   REPITE   0x000012    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                   TABLA1   0x000035    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                   TABLA2   0x00003c    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                      UNO   0x00001f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIA   0x000011    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                   REPITE   0x000012    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                     DOS?   0x000019    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                      UNO   0x00001f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                  REGRESA   0x000020    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                      DOS   0x00002a    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+              REGRESA_DOS   0x00002b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                   TABLA1   0x000035    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                   TABLA2   0x00003c    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                    ENVIA   0x000043    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+                   RECIBE   0x00004b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Eddi\practica4ejercicio1.asm
+
+

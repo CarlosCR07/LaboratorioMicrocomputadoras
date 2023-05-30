@@ -1,0 +1,59 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Mon May 29 23:06:24 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .org_1       code   0x000005    program   0x0000d4
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000005    0x00006e      
+            107 out of 8454 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      DOS   0x00002b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                     DOS?   0x000019    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                    ENVIA   0x000063    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                   INICIA   0x000011    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                     OTRO   0x000037    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                   RECIBE   0x00006b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                  REGRESA   0x000020    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+              REGRESA_DOS   0x00002c    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+             REGRESA_OTRO   0x000038    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                   REPITE   0x000012    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                   TABLA1   0x000042    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                   TABLA2   0x00004d    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                   TABLA3   0x00005a    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                      UNO   0x00001f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIA   0x000011    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                   REPITE   0x000012    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                     DOS?   0x000019    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                      UNO   0x00001f    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                  REGRESA   0x000020    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                      DOS   0x00002b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+              REGRESA_DOS   0x00002c    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                     OTRO   0x000037    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+             REGRESA_OTRO   0x000038    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                   TABLA1   0x000042    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                   TABLA2   0x00004d    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                   TABLA3   0x00005a    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                    ENVIA   0x000063    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+                   RECIBE   0x00006b    program     static D:\carlo\Documentos\FI\8vo Semestre\Lab Micros\Práctica5\Código\P4.asm
+
+

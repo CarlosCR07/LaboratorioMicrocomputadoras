@@ -1,0 +1,26 @@
+Warning[205] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 1 : Found directive in column 1. (processor)
+Warning[205] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 2 : Found directive in column 1. (org)
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 3 : Found opcode in column 1. (Goto)
+Warning[205] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 4 : Found directive in column 1. (org)
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 12 : Found opcode in column 1. (BSF)
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 13 : Found opcode in column 1. (BCF)
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 14 : Found opcode in column 1. (BCF)
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 14 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 15 : Found opcode in column 1. (BSF)
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 15 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 16 : Found opcode in column 1. (BCF)
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 16 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 17 : Found opcode in column 1. (BCF)
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 17 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 19 : Found opcode in column 1. (MOVLW)
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 20 : Found opcode in column 1. (MOVWF)
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 20 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 22 : Found opcode in column 1. (BCF)
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 23 : Found opcode in column 1. (BSF)
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 24 : Found opcode in column 1. (BSF)
+Warning[203] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 25 : Found opcode in column 1. (BSF)
+Message[305] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 59 : Using default destination of 1 (file).
+Message[305] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 74 : Using default destination of 1 (file).
+Message[305] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 88 : Using default destination of 1 (file).
+Message[302] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 133 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[205] D:\CARLO\DOCUMENTOS\FI\8VO SEMESTRE\LAB MICROS\PR·CTICA5\CÛDIGO\P4.ASM 147 : Found directive in column 1. (END)
